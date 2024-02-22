@@ -1,8 +1,7 @@
-import { createRoot } from "react-dom/client";
+import ReactDOM from "react-dom/client";
 import Title from "./Title";
 import styled from "styled-components";
 
-const root = createRoot(document.body);
 const App = () => {
   return (
     <>
@@ -21,7 +20,8 @@ const App = () => {
     </>
   );
 };
-root.render(<App />);
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />)
 
 const InteractScreen = styled.div`
   display: flex;
