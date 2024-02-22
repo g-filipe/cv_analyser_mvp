@@ -1,7 +1,7 @@
 export default () => {
   return (
     <>
-      <h1>CV_Analyser</h1>
+      <h1>CV Analyzer</h1>
     </>
   );
 };

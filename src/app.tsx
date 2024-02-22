@@ -15,7 +15,7 @@ const App = () => {
         </JobTitleBox>
         <DirectoryBox>
           <DirectoryButton>Selecione o diretório</DirectoryButton>
-          <DirectoryPath>~/Desktop/lab-fg/analyser/cv_analyser </DirectoryPath>
+          <DirectoryPath>~/Desktop/lab-fg/analyzer/cv_analyzer </DirectoryPath>
         </DirectoryBox>
       </InteractScreen>
     </>
